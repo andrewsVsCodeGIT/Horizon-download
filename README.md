@@ -3,6 +3,8 @@
 Pianifica progetti sul **Gantt** con dipendenze e percorso critico, segui il carico del team e
 l'avanzamento rispetto al piano. Tabella, Kanban, calendario, panoramica e mappa del progetto;
 campi personalizzati, baseline, importazione CSV ed esportazione in Excel, PDF e PNG.
+Dalla 1.2: portfolio di tutti i progetti, scenari «e se…», previsione della fine, attività ricorrenti,
+ricerca in tutta l'organizzazione, ospiti e approvazioni, accesso con passkey.
 
 L'app per **Windows** e quella per **Android** funzionano da sole, senza account: i dati restano
 cifrati sul dispositivo. Per lavorare in gruppo si collegano a un **server Horizon** (o a un computer
@@ -14,9 +16,9 @@ Gratis, senza pubblicità.
 
 | | Download diretto (ultima versione) | Note |
 |---|---|---|
-| **Windows** 10 / 11 (64 bit) | **[Horizon-Setup.exe](https://github.com/andrewsVsCodeGIT/Horizon-download/releases/latest/download/Horizon-Setup.exe)** | installer, ~13 MB |
-| **Android** 8.0 o successivo | **[Horizon.apk](https://github.com/andrewsVsCodeGIT/Horizon-download/releases/latest/download/Horizon.apk)** | ~75 MB |
-| **Server** Windows o Linux (64 bit) | dalla pagina **[Releases](../../releases/latest)** | `horizon-server-<versione>-windows-x64.zip` o `-linux-x64.tar.gz`, ~16 MB |
+| **Windows** 10 / 11 (64 bit) | **[Horizon-Setup.exe](https://github.com/andrewsVsCodeGIT/Horizon-download/releases/latest/download/Horizon-Setup.exe)** | installer, ~14 MB |
+| **Android** 8.0 o successivo | **[Horizon.apk](https://github.com/andrewsVsCodeGIT/Horizon-download/releases/latest/download/Horizon.apk)** | ~77 MB |
+| **Server** Windows o Linux (64 bit) | dalla pagina **[Releases](../../releases/latest)** | `horizon-server-<versione>-windows-x64.zip` o `-linux-x64.tar.gz`, ~18 MB |
 
 Note di versione e versioni precedenti: **[Releases](../../releases)**.
 
@@ -51,8 +53,13 @@ browser. Non servono Node, database né altri programmi.
    L'eseguibile `horizon-server` e la cartella `web` devono restare insieme.
 2. Avvialo dalla sua cartella (su Windows basta il doppio clic) e apri <http://localhost:8721>:
    crea l'account e la prima organizzazione.
-3. I dati vanno nella cartella `horizon-data` accanto all'eseguibile: per un backup copiala a server
-   fermo. Per aggiornare, sostituisci `horizon-server` e la cartella `web` e lascia `horizon-data` dov'è.
+3. I dati vanno nella cartella `horizon-data` accanto all'eseguibile. Il server ne fa da solo un backup
+   ogni 24 ore in `horizon-data/backups`. Per cifrarlo imposta la variabile `HZ_BACKUP_PASSPHRASE`:
+   senza, le copie contengono le chiavi in chiaro e vanno protette come la cartella dei dati.
+4. Per aggiornare: ferma il server e copia `horizon-data` altrove. Poi estrai la versione nuova in
+   un'altra cartella, spostaci `horizon-data` e avviala. Prima di aggiornare il database il server ne
+   fa una copia. Un database aggiornato non si apre più con la versione precedente: per tornare
+   indietro serve la copia.
 
 Per default il server risponde solo su questo computer. Per gli altri dispositivi della rete avvialo
 con `--listen 0.0.0.0:8721`. Fuori da `localhost` serve HTTPS, altrimenti gli accessi viaggiano in
@@ -73,6 +80,12 @@ Ogni release contiene `SHA256SUMS.txt` con l'impronta **SHA-256** di ogni file. 
 confrontarla con:
 ```powershell
 Get-FileHash .\Horizon-Setup.exe -Algorithm SHA256
+```
+
+Dalla 1.2 l'elenco delle impronte è anche firmato (`SHA256SUMS.txt.sig`, Ed25519). Con Node.js,
+nella cartella dei file scaricati insieme a `release-signing.pub` e `verify-release.mjs`:
+```powershell
+node verify-release.mjs .
 ```
 
 ## English
