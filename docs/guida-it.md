@@ -68,6 +68,7 @@ Ovunque, **Ctrl+K** apre la ricerca rapida di progetti, attività e comandi, e *
 - **F2**, o «Rinomina» nel menu dell'attività, trasforma il nome in un campo: Invio conferma, Esc annulla.
 - **Ctrl+Invio** su una riga apre sotto una riga nuova, allo stesso livello: scrivi il nome e premi Invio, e se ne apre un'altra per continuare; Esc smette.
 - In fondo a ogni sezione aperta c'è **+ Nuova attività**.
+- **Le sezioni** hanno il loro menu (tasto destro sulla riga della sezione, o Maiusc+F10): nuova attività nella sezione, **Rinomina** (anche con F2) ed **Elimina la sezione**. Eliminandola, Horizon chiede conferma e dice quante attività contiene: restano nel progetto, senza sezione. Eliminare una sezione lo può fare chi può eliminare le attività di tutti (Owner, Admin, Project manager).
 - Dopo il nome puoi scrivere inizio e durata, separati da una barra: «Collaudo | ven 5g».
 
 **Riordinare:** trascina il **numero** di una riga e lasciala prima o dopo un'altra (parte alta o bassa della riga) o dentro (al centro), dove diventa sua sotto-attività. Dove non si può la linea diventa rossa e dice perché. Da tastiera **Alt+↑/↓**; nel menu dell'attività **Sposta su** e **Sposta giù**. **Ctrl+Z** annulla.
@@ -85,6 +86,8 @@ Ovunque, **Ctrl+K** apre la ricerca rapida di progetti, attività e comandi, e *
 Nella fine vale anche una durata, «5g» o «2s» (10 giorni lavorativi). Sotto il campo leggi cosa ha capito; Esc torna al valore di prima, l'icona del calendario apre il selettore. La **durata** nei dettagli si modifica e sposta la fine.
 
 **Dettagli accanto alla vista:** su schermi da 1200 px in su i dettagli di un'attività si aprono a destra e la vista resta usabile: un clic su un'altra attività la apre al posto della prima. ‹ › o **Alt+↑/↓** passano all'attività precedente o successiva, nell'ordine della vista; **Esc** chiude e riporta dove eri; **F6** passa tra vista e dettagli.
+
+**Annulla e Ripristina:** i due pulsanti in alto a destra del progetto, o **Ctrl+Z** e **Ctrl+Y** (Ctrl+Maiusc+Z), tornano indietro e avanti di una modifica alla volta: date e spostamenti (con le attività che si erano spostate insieme), nomi, stato e campi, persone, collegamenti con il loro tipo e ritardo, ripetizioni, sezioni (nuove, rinominate, eliminate) e modifiche a più attività insieme. Sul pulsante leggi a cosa si riferisce il passo successivo. La cronologia vale per la scheda del browser e per il progetto; ricaricando la pagina riparte vuota.
 
 **Eliminare si annulla:** dopo un'eliminazione il messaggio ha **Annulla**, e anche **Ctrl+Z** rimette l'attività con le sotto-attività, i collegamenti e le persone. Vale anche senza rete, finché l'eliminazione aspetta di partire. Horizon chiede conferma solo per eliminazioni grandi: più di 10 attività in una volta, o un'attività con più di 10 sotto-attività.
 

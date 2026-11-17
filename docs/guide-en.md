@@ -68,6 +68,7 @@ Anywhere, **Ctrl+K** opens the quick search for projects, tasks and commands, an
 - **F2**, or "Rename" in the task menu, turns the name into a field: Enter keeps it, Esc goes back.
 - **Ctrl+Enter** on a row opens a new row below, at the same level: type the name and press Enter, and another one opens to go on; Esc stops.
 - At the end of each open section there is **+ New task**.
+- **Sections** have their own menu (right-click the section's row, or Shift+F10): new task in the section, **Rename** (F2 too) and **Delete the section**. Deleting it, Horizon asks first and says how many tasks it holds: they stay in the project, without a section. Deleting a section is for whoever can delete everyone's tasks (Owners, Admins, Project managers).
 - After the name you can write a start and a duration, after a bar: "Testing | fri 5d".
 
 **Reordering:** drag a row's **number** and drop it before or after another row (top or bottom of the row) or inside it (the middle), where it becomes its subtask. Where it cannot go, the line turns red and says why. With the keyboard **Alt+↑/↓**; in the task menu **Move up** and **Move down**. **Ctrl+Z** undoes it.
@@ -85,6 +86,8 @@ Anywhere, **Ctrl+K** opens the quick search for projects, tasks and commands, an
 For an end, a duration works too, "5d" or "2w" (10 working days). Under the field you read what it understood; Esc goes back to the previous value, the calendar icon opens the picker. The **duration** in the details can be changed and moves the end.
 
 **Details beside the view:** on screens 1200 px wide or more, a task's details open on the right and the view stays usable: clicking another task opens it instead. ‹ › or **Alt+↑/↓** go to the previous or next task, in the view's order; **Esc** closes them and takes you back; **F6** moves between the view and the details.
+
+**Undo and Redo:** the two buttons at the top right of the project, or **Ctrl+Z** and **Ctrl+Y** (Ctrl+Shift+Z), go back and forth one change at a time: dates and moves (with the tasks that moved along), names, status and fields, people, links with their type and lag, repeats, sections (new, renamed, deleted) and changes to several tasks at once. The button tells you what the next step is about. The history belongs to the browser tab and the project; reloading the page starts it empty.
 
 **Deleting can be undone:** after a delete the message has **Undo**, and **Ctrl+Z** too puts the task back with its subtasks, links and people. It works offline too, while the deletion is waiting to be sent. Horizon asks first only for large deletions: more than 10 tasks at once, or a task with more than 10 subtasks.
 

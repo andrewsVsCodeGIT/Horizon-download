@@ -14,7 +14,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 
 | Licenza | Crate |
 |---|---|
-| MIT License | 459 |
+| MIT License | 464 |
 | Unicode License v3 | 20 |
 | ISC License | 18 |
 | Apache License 2.0 | 8 |
@@ -143,7 +143,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | fdeflate | 0.3.7 | MIT OR Apache-2.0 | https://github.com/image-rs/fdeflate |
 | ff | 0.14.0 | MIT OR Apache-2.0 | https://github.com/zkcrypto/ff |
 | find-msvc-tools | 0.1.15 | MIT OR Apache-2.0 | https://github.com/rust-lang/cc-rs |
-| flate2 | 1.1.10 | MIT OR Apache-2.0 | https://github.com/rust-lang/flate2-rs |
+| flate2 | 1.1.11 | MIT OR Apache-2.0 | https://github.com/rust-lang/flate2-rs |
 | float-cmp | 0.9.0 | MIT | https://github.com/mikedilger/float-cmp |
 | flume | 0.12.0 | Apache-2.0 OR MIT | https://github.com/zesterer/flume |
 | fnv | 1.0.7 | Apache-2.0  OR  MIT | https://github.com/servo/rust-fnv |
@@ -263,7 +263,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | parking_lot_core | 0.9.12 | MIT OR Apache-2.0 | https://github.com/Amanieu/parking_lot |
 | password-hash | 0.6.1 | MIT OR Apache-2.0 | https://github.com/RustCrypto/traits |
 | pastey | 0.2.3 | MIT OR Apache-2.0 | https://github.com/as1100k/pastey |
-| pdf-writer | 0.12.1 | MIT OR Apache-2.0 | https://github.com/typst/pdf-writer |
+| pdf-writer | 0.15.0 | MIT OR Apache-2.0 | https://github.com/typst/pdf-writer |
 | pem | 4.0.0 | MIT | https://github.com/jcreekmore/pem-rs.git |
 | percent-encoding | 2.3.2 | MIT OR Apache-2.0 | https://github.com/servo/rust-url/ |
 | phc | 0.6.1 | Apache-2.0 OR MIT | https://github.com/RustCrypto/formats |
@@ -298,17 +298,18 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | rcgen | 0.14.10 | MIT OR Apache-2.0 | https://github.com/rustls/rcgen |
 | read-fonts | 0.39.2 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
 | read-fonts | 0.41.0 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
+| read-fonts | 0.46.0 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
 | regex | 1.13.1 | MIT OR Apache-2.0 | https://github.com/rust-lang/regex |
 | regex-automata | 0.4.18 | MIT OR Apache-2.0 | https://github.com/rust-lang/regex |
 | regex-syntax | 0.8.11 | MIT OR Apache-2.0 | https://github.com/rust-lang/regex |
 | reqwest | 0.13.5 | MIT OR Apache-2.0 | https://github.com/seanmonstar/reqwest |
 | resvg | 0.49.0 | Apache-2.0 OR MIT | https://github.com/linebender/resvg |
 | rfc6979 | 0.6.0 | Apache-2.0 OR MIT | https://github.com/RustCrypto/signatures |
-| rfd | 0.16.1 | MIT | https://github.com/PolyMeilex/rfd |
+| rfd | 0.17.2 | MIT | https://github.com/PolyMeilex/rfd |
 | rgb | 0.8.53 | MIT | https://github.com/kornelski/rust-rgb |
 | ring | 0.17.14 | Apache-2.0 AND ISC | https://github.com/briansmith/ring |
 | roxmltree | 0.21.2 | MIT OR Apache-2.0 | https://github.com/RazrFalcon/roxmltree |
-| rust_xlsxwriter | 0.101.0 | MIT OR Apache-2.0 | https://github.com/jmcnamara/rust_xlsxwriter |
+| rust_xlsxwriter | 0.102.0 | MIT OR Apache-2.0 | https://github.com/jmcnamara/rust_xlsxwriter |
 | rustc-hash | 2.1.3 | Apache-2.0 OR MIT | https://github.com/rust-lang/rustc-hash |
 | rustc_version | 0.4.1 | MIT OR Apache-2.0 | https://github.com/djc/rustc-version-rs |
 | rustix | 1.1.5 | Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT | https://github.com/bytecodealliance/rustix |
@@ -359,6 +360,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | siphasher | 1.0.4 | MIT OR Apache-2.0 | https://github.com/jedisct1/rust-siphash |
 | skrifa | 0.42.1 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
 | skrifa | 0.44.0 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
+| skrifa | 0.49.0 | MIT OR Apache-2.0 | https://github.com/googlefonts/fontations |
 | slab | 0.4.12 | MIT | https://github.com/tokio-rs/slab |
 | slotmap | 1.1.1 | Zlib | https://github.com/orlp/slotmap |
 | smallvec | 1.16.3 | MIT OR Apache-2.0 | https://github.com/servo/rust-smallvec |
@@ -393,13 +395,13 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | tauri-codegen | 2.7.4 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
 | tauri-macros | 2.7.4 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
 | tauri-plugin | 2.7.2 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
-| tauri-plugin-deep-link | 2.6.2 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
-| tauri-plugin-dialog | 2.8.3 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
+| tauri-plugin-deep-link | 2.6.3 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
+| tauri-plugin-dialog | 2.8.4 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
 | tauri-plugin-fs | 2.7.1 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
 | tauri-plugin-opener | 2.7.2 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
 | tauri-plugin-process | 2.4.0 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
-| tauri-plugin-single-instance | 2.5.4 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
-| tauri-plugin-updater | 2.14.0 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
+| tauri-plugin-single-instance | 2.5.5 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
+| tauri-plugin-updater | 2.14.1 | Apache-2.0 OR MIT | https://github.com/tauri-apps/plugins-workspace |
 | tauri-runtime | 2.12.2 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
 | tauri-runtime-wry | 2.12.3 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
 | tauri-utils | 2.10.2 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri |
@@ -424,6 +426,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | tokio-rustls | 0.26.6 | MIT OR Apache-2.0 | https://github.com/rustls/tokio-rustls |
 | tokio-stream | 0.1.19 | MIT | https://github.com/tokio-rs/tokio |
 | tokio-tungstenite | 0.29.0 | MIT | https://github.com/snapview/tokio-tungstenite |
+| tokio-tungstenite | 0.30.0 | MIT | https://github.com/snapview/tokio-tungstenite |
 | tokio-util | 0.7.20 | MIT | https://github.com/tokio-rs/tokio |
 | toml | 1.1.8+spec-1.1.0 | MIT OR Apache-2.0 | https://github.com/toml-rs/toml |
 | toml_datetime | 1.1.2+spec-1.1.0 | MIT OR Apache-2.0 | https://github.com/toml-rs/toml |
@@ -443,6 +446,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | tracing-subscriber | 0.3.23 | MIT | https://github.com/tokio-rs/tracing |
 | try-lock | 0.2.5 | MIT | https://github.com/seanmonstar/try-lock |
 | tungstenite | 0.29.0 | MIT OR Apache-2.0 | https://github.com/snapview/tungstenite-rs |
+| tungstenite | 0.30.0 | MIT OR Apache-2.0 | https://github.com/snapview/tungstenite-rs |
 | typed-path | 0.12.4 | MIT OR Apache-2.0 | https://github.com/chipsenkbeil/typed-path |
 | typeid | 1.0.3 | MIT OR Apache-2.0 | https://github.com/dtolnay/typeid |
 | typenum | 1.20.1 | MIT OR Apache-2.0 | https://github.com/paholg/typenum |
@@ -464,7 +468,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | utoipa | 6.0.0 | MIT OR Apache-2.0 | https://github.com/juhaku/utoipa |
 | utoipa-axum | 0.3.0 | MIT OR Apache-2.0 | https://github.com/juhaku/utoipa |
 | utoipa-gen | 6.0.1 | MIT OR Apache-2.0 | https://github.com/juhaku/utoipa |
-| uuid | 1.28.0 | Apache-2.0 OR MIT | https://github.com/uuid-rs/uuid |
+| uuid | 1.29.2 | Apache-2.0 OR MIT | https://github.com/uuid-rs/uuid |
 | version_check | 0.9.5 | MIT OR Apache-2.0 | https://github.com/SergioBenitez/version_check |
 | vswhom | 0.1.0 | MIT | https://github.com/nabijaczleweli/vswhom.rs |
 | vswhom-sys | 0.1.3 | MIT | https://github.com/nabijaczleweli/vswhom-sys.rs |

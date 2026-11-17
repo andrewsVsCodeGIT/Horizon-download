@@ -56,10 +56,16 @@ browser. Non servono Node, database né altri programmi.
 3. I dati vanno nella cartella `horizon-data` accanto all'eseguibile. Il server ne fa da solo un backup
    ogni 24 ore in `horizon-data/backups`. Per cifrarlo imposta la variabile `HZ_BACKUP_PASSPHRASE`:
    senza, le copie contengono le chiavi in chiaro e vanno protette come la cartella dei dati.
-4. Per aggiornare: ferma il server e copia `horizon-data` altrove. Poi estrai la versione nuova in
-   un'altra cartella, spostaci `horizon-data` e avviala. Prima di aggiornare il database il server ne
-   fa una copia. Un database aggiornato non si apre più con la versione precedente: per tornare
-   indietro serve la copia.
+4. Per aggiornare: ferma il server ed estrai la versione nuova in un'altra cartella.
+   - **Windows:** nella cartella nuova fai doppio clic su `aggiorna-dati.cmd` e indica la cartella del
+     server vecchio. Lo script copia lì `horizon-data`, controlla la copia file per file e aggiorna il
+     database dopo averne fatto una copia. La cartella vecchia resta com'era: per tornare indietro
+     basta riavviare il server vecchio.
+   - **Linux:** copia `horizon-data` altrove, poi spostala nella cartella nuova. Il server fa una copia
+     del database prima di aggiornarlo. Un database aggiornato non si apre più con la versione
+     precedente: per tornare indietro serve la copia.
+
+   Poi avvia il server nuovo con le stesse opzioni di prima.
 
 Per default il server risponde solo su questo computer. Per gli altri dispositivi della rete avvialo
 con `--listen 0.0.0.0:8721`. Fuori da `localhost` serve HTTPS, altrimenti gli accessi viaggiano in

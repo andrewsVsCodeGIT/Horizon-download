@@ -1,6 +1,6 @@
 # Dipendenze npm di produzione
 
-Generato da `scripts/check-licenses.mjs --report` il 2026-11-12.
+Generato da `scripts/check-licenses.mjs --report` il 2026-11-17.
 
 | Pacchetto | Versione | Licenza | Provenienza |
 |---|---|---|---|
@@ -79,34 +79,34 @@ Generato da `scripts/check-licenses.mjs --report` il 2026-11-12.
 | @tanstack/react-virtual | 3.14.21 | MIT | https://tanstack.com/virtual |
 | @tanstack/virtual-core | 3.19.6 | MIT | https://tanstack.com/virtual |
 | @tauri-apps/api | 2.12.4 | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri#readme |
-| @tiptap/core | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-blockquote | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-bold | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-bullet-list | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-code | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-code-block | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-document | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-dropcursor | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-gapcursor | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-hard-break | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-heading | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-horizontal-rule | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-italic | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-link | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-list | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-list-item | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-list-keymap | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-mention | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-ordered-list | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-paragraph | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-strike | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-text | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extension-underline | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/extensions | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/pm | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/react | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/starter-kit | 3.32.0 | MIT | https://tiptap.dev |
-| @tiptap/suggestion | 3.32.0 | MIT | https://tiptap.dev |
+| @tiptap/core | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-blockquote | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-bold | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-bullet-list | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-code | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-code-block | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-document | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-dropcursor | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-gapcursor | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-hard-break | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-heading | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-horizontal-rule | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-italic | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-link | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-list | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-list-item | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-list-keymap | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-mention | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-ordered-list | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-paragraph | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-strike | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-text | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extension-underline | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/extensions | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/pm | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/react | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/starter-kit | 3.33.1 | MIT | https://tiptap.dev |
+| @tiptap/suggestion | 3.33.1 | MIT | https://tiptap.dev |
 | @types/react | 19.3.0 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react |
 | @types/react-dom | 19.3.0 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom |
 | @types/use-sync-external-store | 0.0.6 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/use-sync-external-store |
@@ -117,7 +117,7 @@ Generato da `scripts/check-licenses.mjs --report` il 2026-11-12.
 | fast-equals | 5.4.5 | MIT | https://github.com/planttheidea/fast-equals#readme |
 | get-nonce | 1.0.1 | MIT | https://github.com/theKashey/get-nonce |
 | html-parse-stringify | 4.0.1 | MIT | https://github.com/i18next/html-parse-stringify |
-| i18next | 26.5.4 | MIT | https://www.i18next.com |
+| i18next | 27.1.1 | MIT | https://www.i18next.com |
 | jsqr | 1.4.0 | Apache-2.0 | https://github.com/cozmo/jsQR#readme |
 | linkifyjs | 4.3.3 | MIT | https://linkify.js.org |
 | lucide-react | 1.61.0 | ISC | https://lucide.dev |
