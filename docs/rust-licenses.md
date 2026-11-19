@@ -131,7 +131,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | ecdsa | 0.17.0 | Apache-2.0 OR MIT | https://github.com/RustCrypto/signatures |
 | either | 1.19.0 | MIT OR Apache-2.0 | https://github.com/rayon-rs/either |
 | elliptic-curve | 0.14.1 | Apache-2.0 OR MIT | https://github.com/RustCrypto/traits |
-| email-encoding | 0.4.2 | MIT OR Apache-2.0 | https://github.com/lettre/email-encoding |
+| email-encoding | 0.4.3 | MIT OR Apache-2.0 | https://github.com/lettre/email-encoding |
 | email_address | 0.2.9 | MIT | https://github.com/johnstonskj/rust-email_address.git |
 | embed-resource | 3.0.12 | MIT | https://github.com/nabijaczleweli/rust-embed-resource |
 | equivalent | 1.0.3 | Apache-2.0 OR MIT | https://github.com/indexmap-rs/equivalent |
@@ -224,7 +224,7 @@ salvo `libsqlite3-sys`, vendorizzata in `crates/libsqlite3-sys-mc` (SQLite3 Mult
 | keyring | 3.6.3 | MIT OR Apache-2.0 | https://github.com/hwchen/keyring-rs.git |
 | kurbo | 0.13.1 | Apache-2.0 OR MIT | https://github.com/linebender/kurbo |
 | lazy_static | 1.5.1 | MIT OR Apache-2.0 | https://github.com/rust-lang-nursery/lazy-static.rs |
-| lettre | 0.11.23 | MIT | https://github.com/lettre/lettre |
+| lettre | 0.11.24 | MIT | https://github.com/lettre/lettre |
 | libc | 0.2.191 | MIT OR Apache-2.0 | https://github.com/rust-lang/libc |
 | linux-raw-sys | 0.12.1 | Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT | https://github.com/sunfishcode/linux-raw-sys |
 | litemap | 0.8.3 | Unicode-3.0 | https://github.com/unicode-org/icu4x |

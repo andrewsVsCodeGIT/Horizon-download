@@ -1,6 +1,6 @@
 # Dipendenze npm di produzione
 
-Generato da `scripts/check-licenses.mjs --report` il 2026-11-17.
+Generato da `scripts/check-licenses.mjs --report` il 2026-11-19.
 
 | Pacchetto | Versione | Licenza | Provenienza |
 |---|---|---|---|
